@@ -1,0 +1,8 @@
+,accuracy_score,precision,true_positive_rate,false_positive_rate,f1,roc_auc
+Base,{},{},{},{},{},{}
+Log,"{'penalty': 'l2', 'C': 0.01}","{'penalty': 'elasticnet', 'C': 0.01}","{'penalty': 'elasticnet', 'C': 0.01}","{'penalty': 'elasticnet', 'C': 0.01}","{'penalty': 'elasticnet', 'C': 0.01}","{'penalty': 'elasticnet', 'C': 0.01}"
+LDA,{},{},{},{},{},{}
+SVM,{'margin': 10},{'margin': 0.1},{'margin': 10},{'margin': 10},{'margin': 10},{'margin': 0.1}
+DT,"{'max_depth': 7.0, 'ccp_alpha': 0.0}","{'max_depth': 7.0, 'ccp_alpha': 0.0}","{'max_depth': 1.0, 'ccp_alpha': 0.0}","{'max_depth': 1.0, 'ccp_alpha': 0.0}","{'max_depth': 8.0, 'ccp_alpha': 0.0}","{'max_depth': 8.0, 'ccp_alpha': 0.0}"
+RF,{'max_depth': 6},{'max_depth': 6},{'max_depth': 3},{'max_depth': 3},{'max_depth': 6},{'max_depth': 6}
+XGB,"{'learning_rate': 1, 'max_depth': 3}","{'learning_rate': 0.01, 'max_depth': 10}","{'learning_rate': 0.01, 'max_depth': 3}","{'learning_rate': 0.01, 'max_depth': 3}","{'learning_rate': 0.1, 'max_depth': 3}","{'learning_rate': 1, 'max_depth': 10}"
