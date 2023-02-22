@@ -1,5 +1,5 @@
 # CoverMyMeds : Prior Authorization Approval Prediction
----
+<hr/>
 
 This project was provided by [CoverMyMeds](https://www.covermymeds.com/main/).
 
